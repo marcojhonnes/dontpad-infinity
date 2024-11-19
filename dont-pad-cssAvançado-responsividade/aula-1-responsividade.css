@@ -1,0 +1,82 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Avançado: Responsividade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="">
+
+        <div id="navegacao">
+            <nav>
+                <ul>
+                    <li>Roupas Legais</li>
+                    <li>Roupas Divertidas</li>
+                    <li>Roupas Alegres</li>
+                    <li>Roupas</li>
+                </ul>
+            </nav>
+
+            <img src="assets/basket.svg" alt="">
+
+            <img id="ham-menu" src="assets/list.svg" alt="">
+        </div>
+    </header>
+</body>
+</html>
+
+CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+}
+
+#logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+#navegacao {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#navegacao > nav {
+    display: none;
+}
+
+#navegacao > nav > ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+
+    color: #FAFAFA;
+}
+
+@media (min-width: 768px) {
+    #navegacao > nav {
+        display: block;
+    }
+
+    #ham-menu {
+        display: none;
+    }
+}

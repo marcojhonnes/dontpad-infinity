@@ -1,0 +1,80 @@
+Projeto
+
+https://drive.google.com/drive/folders/1GY7qMpSJvMfLKgsnJQRx1Q7yjg-j20bZ?usp=sharing
+
+
+========================================================================
+
+
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo"> 
+        fdjdsajfosd
+    </h1>
+   
+   <div id="container">
+        <h1>fdsafd</h1>
+        <p class="paragrafo"">
+            lkjriokfesdjakjf dksjfaofkjdsokj
+        </p>
+        <p class="paragrafo">
+            lkjriokfesdjakjf dksjfaofkjdsokj
+        </p>
+        <p class="paragrafo">
+            lkjriokfesdjakjf dksjfaofkjdsokj
+        </p>
+   </div>
+</body>
+</html>
+
+=====================================================================
+
+CSS
+
+/* #titulo {
+    background-color: blue;
+} */
+
+/* body > h1 {
+    background-color: aqua;
+}
+
+h1 {
+    background-color: blue;
+} */
+
+/* .paragrafo {
+    font-size: 48px;
+    color: blue; 
+    background-color: red;
+} */
+
+/* h1:hover {
+    background-color: aqua;
+}
+
+h1:active {
+    background-color: aquamarine;
+} */
+
+/* div > p:nth-child(1) {
+    background-color: purple;even
+}
+
+div > p:nth-child(even) {
+    background-color: blueviolet;
+} */
+
+/* div > * {
+    background-color: red;
+} */
